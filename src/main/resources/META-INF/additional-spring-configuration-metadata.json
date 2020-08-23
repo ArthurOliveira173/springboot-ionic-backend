@@ -8,5 +8,15 @@
     "name": "default.sender",
     "type": "java.lang.String",
     "description": "Email sender"
+  },
+  {
+    "name": "jwt.secret",
+    "type": "java.lang.String",
+    "description": "Character sequence used to sign a token"
+  },
+  {
+    "name": "jwt.expiration",
+    "type": "java.lang.Long",
+    "description": "Token expiration time"
   }
 ]}

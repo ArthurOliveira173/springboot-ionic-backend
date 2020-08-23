@@ -62,5 +62,4 @@ public class ItemPedidoPK implements Serializable {
 			return false;
 		return true;
 	}
-
 }
