@@ -5,34 +5,34 @@ public enum Perfil {
 	ADMIN(1, "ROLE_ADMIN"),
 	CLIENTE(2, "ROLE_CLIENTE");
 
-	private int cod;
+	private int codigo;
 	private String descricao;
 
-	private Perfil(int cod, String descricao) {
-		this.cod = cod;
+	private Perfil(int codigo, String descricao) {
+		this.codigo = codigo;
 		this.descricao = descricao;
 	}
 
 	public int getCod() {
-		return cod;
+		return codigo;
 	}
 
 	public String getDescricao () {
 		return descricao;
 	}
 
-	public static Perfil toEnum(Integer cod) {
+	public static Perfil toEnum(Integer codigo) {
 
-		if (cod == null) {
+		if (codigo == null) {
 			return null;
 		}
 
 		for (Perfil x : Perfil.values()) {
-			if (cod.equals(x.getCod())) {
+			if (codigo.equals(x.getCod())) {
 				return x;
 			}
 		}
 
-		throw new IllegalArgumentException("Id inválido: " + cod);
+		throw new IllegalArgumentException("Id inválido: " + codigo);
 	}
 }

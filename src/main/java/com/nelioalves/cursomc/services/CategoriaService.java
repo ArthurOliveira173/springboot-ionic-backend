@@ -65,5 +65,4 @@ public class CategoriaService {
 	private void updateData(Categoria newObj, Categoria obj) {
 		newObj.setNome(obj.getNome());
 	}
-
 }

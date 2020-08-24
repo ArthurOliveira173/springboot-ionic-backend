@@ -53,5 +53,4 @@ public class BR {
 			return false;
 		return checkEquals(tfn, 12, WEIGHT_TFN);
 	}
-
 }
