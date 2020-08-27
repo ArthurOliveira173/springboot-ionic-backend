@@ -38,5 +38,15 @@
     "name": "s3.region",
     "type": "java.lang.String",
     "description": "S3 client region"
+  },
+  {
+    "name": "img.prefix.client.profile",
+    "type": "java.lang.String",
+    "description": "Client profile image prefix"
+  },
+  {
+    "name": "img.profile.size",
+    "type": "java.lang.Integer",
+    "description": "Default profile image size"
   }
 ]}
